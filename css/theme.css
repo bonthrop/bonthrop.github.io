@@ -49,6 +49,7 @@ body {
   color: #666;
   overflow-x: hidden;
 }
+
 body.boxed-layout {
   background: #eee;
 }
@@ -4497,7 +4498,7 @@ video {
 .image-caption .caption p {
   position: relative;
   z-index: 4;
-  margin: 0;
+  margin: 16px;
 }
 .image-caption .caption:before {
   content: '' attr(data-caption) '';
